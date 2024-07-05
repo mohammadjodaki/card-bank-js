@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <title>Document</title>
+</head>
+<body class="bg-slate-400">
+    <section class="w-full h-screen flex justify-center items-center">
+        <div class="w-11/12 md:w-3/4 lg:w-3/6 xl:w-2/5 h-[580px] md:px-3 lg:px-6 bg-white rounded-xl relative">
+            <div class="w-80 h-48 flex justify-center bg-image2 bg-cover rounded-xl absolute left-20 md:left-28 top-6">
+                <h3 class=" font-bold absolute top-[92px] right-7" id="ccv"></h3>
+            </div>
+            <div id="rotate" class="w-80 h-48 flex justify-center bg-image1 bg-cover absolute left-20 md:left-28 top-6 rounded-xl transform origin-bottom-left transition duration-700">
+                <h1 id="num" class="text-white text-2xl text-center absolute left-6 top-24"></h1>
+                <h3 id="name" class="text-white text-lg text-center absolute left-2 bottom-3"></h3>
+                <h3 id="date" class="text-white text-lg text-center absolute right-2 bottom-2"></h3>
+            </div>
+            <div id="inpnum" class="md:p-6 mt-64 flex justify-center de">
+                <label class=" px-1 py-2 text-sm rounded-md text-stone-700 text-center" for="">card number :</label>
+                <input class="w-[55px] md:w-[65px] h-9 rounded-md font-bold mx-1 border outline-none px-2 border-zinc-400" type="text">
+                <input class="w-[55px] md:w-[65px] h-9 rounded-md font-bold mx-1 border outline-none px-2 border-zinc-400" type="text">
+                <input class="w-[55px] md:w-[65px] h-9 rounded-md font-bold mx-1 border outline-none px-2 border-zinc-400" type="text">
+                <input class="w-[55px] md:w-[65px] h-9 rounded-md font-bold mx-1 border outline-none px-2 border-zinc-400" type="text">
+                </div>
+                <div class=" mt-6 flex justify-center">
+                 <label class="px-1 py-2 text-xs rounded-md text-stone-700 text-center" for="">CARD HOLDER :</label>
+                 <input id="inpname" class="w-[300px] h-9 border outline-none px-2 mx-1 rounded-md border-zinc-400" type="text">
+                 </div>
+                 <div class="mt-6 flex justify-center">
+                 <label class=" px-1 py-2 text-xs rounded-md text-stone-700 text-center" for="">EXPIRATION DATE :</label>
+                 <select id="optmonth" class="w-16 h-10 mx-1 border outline-none px-2 rounded-md border-zinc-400" name="" id="">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                 </select>
+                 <select id="optyear" class="w-20 h-10 border outline-none px-2 rounded-md border-zinc-400" name="" id="">
+                    <option value="18">2018</option>
+                    <option value="19">2019</option>
+                    <option value="20">2020</option>
+                    <option value="21">2021</option>
+                    <option value="22">2022</option>
+                    <option value="23">2023</option>
+                    <option value="24">2024</option>
+                 </select>
+                 <label class="ml-7 px-3 py-2 text-sm rounded-md text-stone-700 text-center" for="">ccv :</label>
+                    <input id="inpccv" class="w-12 h-9 rounded-md font-bold mx-1 border outline-none px-2 border-zinc-400" type="text">
+                 </div>
+                 <div class="flex justify-center mt-12">
+                 <button class="w-2/3 h-12 bg-teal-700 rounded-xl text-xl font-bold text-white">SUBMIT</button>
+                </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
