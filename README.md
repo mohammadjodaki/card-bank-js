@@ -3,6 +3,8 @@ You can see information about my project
 
 ![viewfinal](https://imgurl.ir/uploads/a135664_Screenshot_102.png)
 
+![viewfinal](https://imgurl.ir/uploads/d85306_Screenshot_109.png)
+
 - [Demo Project](https://mohammadjodaki.github.io/card-bank-js/)
 
 - Developed by mohammad jodaki
